@@ -93,6 +93,15 @@ form > p {
     margin-top: .5rem;
 }
 
+form > h3 > a {
+    color: var(--cor-rosa);
+    text-decoration: none;
+}
+
+form > h3 > span {
+    color: var(--cor-rosa);
+}
+
 #btn-cadastrar {
     color: white;
     background-color: var(--cor-rosa);
