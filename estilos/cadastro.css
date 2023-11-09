@@ -92,9 +92,14 @@ form > p {
     margin-top: .2rem;
 }
 
+form > h3 {
+    margin-top: -.5rem;
+}
+
 form > h3 > a {
     color: var(--cor-rosa);
     text-decoration: none;
+    padding-block: .5rem;
 }
 
 form > h3 > span {
