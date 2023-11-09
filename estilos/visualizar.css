@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', Arial, sans-serif;
-    /* font-size: 62.5%; */
 }
 
 :root {
@@ -98,6 +97,7 @@ h3 > a {
 
 #entidade-container > p {
     margin-top: 1rem;
+    padding: .3rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 }
 
