@@ -7,7 +7,7 @@
     <title>Projeto Aujude!</title>
     <link rel="shortcut icon" href="imagens/favicon-pet-32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="estilos/cadastro.css">
+    <link rel="stylesheet" href="estilos/registro.css">
 </head>
 <body>
 
@@ -23,17 +23,14 @@
 
     <section>
         <div id="cadastro-container">
-            <h2>Cadastre sua <span class="sp-rosa">entidade</span> aqui.</h2>
+            <h2>Registre seu campo de<span class="sp-rosa"> atuação</span> aqui.</h2>
         </div>
 
         <div id="form-container">
             <form action="" method="get">
-                <h3><a href="index.html"><</a> Nova <span>entidade</span></h3>
+                <h3><a href="index.html"><</a> Campo de <span>atuação</span></h3>
 
-                <p><label for="idname-box">Nome:</label></p>
-                <input type="text" name="name-box" id="idname-box" placeholder="Digite o nome de sua entidade..." required>
-
-                <p><label for="idatuacao-box">Campo de atuação:</label></p>
+                <p><label for="idatuacao-box">Pesquisar campos de atuação:</label></p>
                 <select name="atuacao-box" id="idatuacao-box" required>
                     <option class="opt-selected" value="" selected disabled>Selecione um dos campos de atuação...</option>
                     <option value="abrigo">Abrigo de Animais</option>
@@ -42,10 +39,12 @@
                     <option value="hospital">Hospitalar</option>
                 </select>
 
-                <p><label for="idcoleta-box">Ponto de coleta:</label></p>
-                <input type="text" name="coleta-box" id="idcoleta-box" placeholder="Informe o ponto de coleta..." required>
+                <p class="par-ou">Ou registre um novo campo de atuação.</p>
 
-                <input id="btn-cadastrar" type="submit" value="Cadastrar">
+                <p><label for="idcoleta-box">Campo de atuação:</label></p>
+                <input type="text" name="coleta-box" id="idcoleta-box" placeholder="Digite seu campo de atuação..." required>
+
+                <input id="btn-registrar" type="submit" value="Registrar">
                 
             </form>
         </div>
