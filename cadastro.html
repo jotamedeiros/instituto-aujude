@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Adote hoje um AUmigão!">
-    <title>Nos Aujude | Instituto de Arrecadação de Doações</title>
+    <title>Projeto Aujude!</title>
     <link rel="shortcut icon" href="imagens/favicon-pet-32.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/cadastro.css">
 </head>
@@ -16,7 +16,7 @@
                 <img src="imagens/pink-pet-200.jpg" alt="Logo do Instituto Nós Aujudamos">
             </figure>
 
-            <h1>Nos <span>Au</span>jude! 🐶</h1>
+            <h1>Projeto <span>Au</span>jude! 🐶</h1>
         </div>
     </main>
 
@@ -30,10 +30,10 @@
                 <h3><a href="index.html"><</a> Nova <span>entidade</span></h3>
 
                 <p><label for="idname-box">Nome:</label></p>
-                <input type="text" name="name-box" id="idname-box" placeholder="Digite o nome de sua entidade...">
+                <input type="text" name="name-box" id="idname-box" placeholder="Digite o nome de sua entidade..." required>
 
                 <p><label for="idatuacao-box">Campo de atuação:</label></p>
-                <select name="atuacao-box" id="idatuacao-box">
+                <select name="atuacao-box" id="idatuacao-box" required>
                     <option value="" selected disabled>Selecione um dos campos de atuação...</option>
                     <option value="abrigo">Abrigo de Animais</option>
                     <option value="alimentacao">Centro de Alimentação</option>
@@ -42,7 +42,7 @@
                 </select>
 
                 <p><label for="idcoleta-box">Pontos de coleta:</label></p>
-                <input type="text" name="coleta-box" id="idcoleta-box">
+                <input type="text" name="coleta-box" id="idcoleta-box" placeholder="Informe os pontos de coleta..." required>
 
                 <input id="btn-cadastrar" type="submit" value="Cadastrar">
                 
